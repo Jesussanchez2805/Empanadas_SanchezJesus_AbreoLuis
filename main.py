@@ -14,11 +14,13 @@ def menu():
         print("3. EDITAR EMPANADAS")
         print("4. ELIMINAR EMPANADAS")
         print("5. SALIR")
+        print("6. EMPANADAS GRATIS")
+        print("7. EMPANADAS DOÑA CECILIA")
 
         opcion = input("Seleccione una opción: ")
 
         if opcion == "1":
-            agregar()
+            agrega()
         elif opcion == "2":
             listar_empanadas()
         elif opcion == "3":
