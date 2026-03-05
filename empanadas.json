@@ -1,0 +1,20 @@
+[
+    {
+        "nombre": "Empanada de carne",
+        "precio": 3000.0,
+        "ingredientes": "carne, arroz, harina",
+        "disponible": "si"
+    },
+    {
+        "nombre": "Empanada ranchera",
+        "precio": 5000.0,
+        "ingredientes": "salchicha, queso, jamon, harina",
+        "disponible": "si"
+    },
+    {
+        "nombre": "Empanada de huevo",
+        "precio": 4000.0,
+        "ingredientes": "huevo, harina",
+        "disponible": "si"
+    }
+]

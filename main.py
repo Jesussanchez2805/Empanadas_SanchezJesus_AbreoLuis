@@ -18,7 +18,7 @@ def menu():
         opcion = input("Seleccione una opción: ")
 
         if opcion == "1":
-            agrega()
+            agregar()
         elif opcion == "2":
             listar_empanadas()
         elif opcion == "3":
