@@ -3,6 +3,10 @@ from utils import cargar_empanadas, guardar_empanadas
 def editar_empanada(empanadas):
     nombre_buscar = input("Nombre de la empanada a editar: ")
 
+    if not empanadas:
+        print("  El catálogo está vacío. ¡Agrega tu primera empanada!")
+        return
+    
     for e in empanadas:
         if e["nombre"].lower() == nombre_buscar.lower():
             print("Deje en blanco si no desea cambiar el valor.")
@@ -25,5 +29,3 @@ def editar_empanada(empanadas):
             guardar_empanadas(empanadas)
             print("Empanada actualizada.")
             return
-
-    print("Empanada no encontrada.")
