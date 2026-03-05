@@ -1,6 +1,7 @@
 from utils import cargar_empanadas, guardar_empanadas
 
-def editar_empanada(empanadas):
+def editar_empanada():
+    empanadas = cargar_empanadas()
     nombre_buscar = input("Nombre de la empanada a editar: ")
 
     if not empanadas:

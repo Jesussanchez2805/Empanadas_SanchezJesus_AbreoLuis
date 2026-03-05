@@ -1,6 +1,7 @@
 from utils import cargar_empanadas, guardar_empanadas
 
-def eliminar_empanada(empanadas):
+def eliminar_empanada():
+    empanadas = cargar_empanadas()
     nombre_buscar = input("Nombre de la empanada a eliminar: ")
     
     if not empanadas:

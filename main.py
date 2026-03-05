@@ -22,9 +22,9 @@ def menu():
         elif opcion == "2":
             listar_empanadas()
         elif opcion == "3":
-            editar_empanada(empanadas)
+            editar_empanada()
         elif opcion == "4":
-            eliminar_empanada(empanadas)
+            eliminar_empanada()
         elif opcion == "5":
             break
         else:
