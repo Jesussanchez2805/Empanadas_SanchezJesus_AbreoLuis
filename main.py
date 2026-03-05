@@ -9,11 +9,11 @@ def menu():
 
     while True:
         print("\n--- MENU EMPANADAS ---")
-        print("1. AGREGAR EMPANADAS")
-        print("2. LISTAR EMPANADAS")
-        print("3. EDITAR EMPANADAS")
-        print("4. ELIMINAR EMPANADAS")
-        print("5. SALIR")
+        print("""1. AGREGAR EMPANADAS
+2. LISTAR EMPANADAS
+3. EDITAR EMPANADAS
+4. ELIMINAR EMPANADAS
+5. SALIR""")
 
         opcion = input("Seleccione una opción: ")
 
