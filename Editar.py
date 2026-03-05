@@ -8,14 +8,20 @@ def editar_empanada(empanadas):
             print("Deje en blanco si no desea cambiar el valor.")
 
             nuevo_nombre = input("Nuevo nombre: ")
-            nuevo_precio = input("Nuevo precio: ")
+            nuevo_precio = float(input("Nuevo precio: "))
+            nuevo_ingredientes = input("Nuevos ingredientes")
+            nuevo_disponible = input("Estado de las empanadas disponible (si/no)")
 
             if nuevo_nombre != "":
                 e["nombre"] = nuevo_nombre
 
             if nuevo_precio != "":
                 e["precio"] = nuevo_precio
-
+            if nuevo_ingredientes != "":
+                e["ingredientes"] = nuevo_ingredientes
+            if nuevo_disponible != "":
+                e["disponible"] = nuevo_disponible
+                
             guardar_empanadas(empanadas)
             print("Empanada actualizada.")
             return
